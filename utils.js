@@ -1,4 +1,4 @@
-function createElement(type, id, content, events = {}) {
+export function createElement(type, id, content, events = {}) {
     const el = document.createElement(type)
     el.id = id
     el.textContent = content
